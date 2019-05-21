@@ -1,0 +1,11 @@
+<launch>
+
+	<node name="publisher" pkg="crazyflie_cpp" type="publisher">
+		<param name="elevator" value="3"/>
+		<param name="rudder" value="2"/>
+		<param name="thrust" value="1"/>
+		<param name="elevator_max" value="60000"/>
+		<param name="rudder_max" value="60000"/>
+		<param name="thrust_max" value="30"/>
+	</node>
+</launch>
